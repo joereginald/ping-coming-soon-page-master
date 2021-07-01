@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9aad3393e4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -18,14 +21,16 @@
 </head>
 <body>
   <div class="container">
-    <img src="./images/logo.svg" alt="" class="logo">
+    <img src="./images/logo.svg" alt="" id="logo">
     <div class="text">
-      <div class="title">We are launching <span>soon!</span> </div>
-      <div class="subtitle">Subscribe and get notified</div>
+      <div id="title"> <span>We are launching</span> soon!</div>
+      <div id="subtitle">Subscribe and get notified</div>
     </div>
     <div class="input">
-      <input type="text" name="" id="inputEmail" placeholder="Your email address...">
-      <input type="submit" value="Notify Me">
+      <div class="inputEmail">
+        <input type="text" name="" id="inputEmail" placeholder="Your email address...">
+      </div>      
+      <input type="submit" value="Notify Me" id="submit">
     </div>
     <img src="./images/illustration-dashboard.png" alt="" id="illustration">
     <div class="socmed">
@@ -33,16 +38,10 @@
       <i class="fab fa-twitter"></i>
       <i class="fab fa-instagram"></i>
     </div>
+    <div class="copyright">
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </div>
   </div>
-
-  
-
-  
-
-  
-
-  &copy; Copyright Ping. All rights reserved.
-
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
